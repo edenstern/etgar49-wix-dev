@@ -1,0 +1,79 @@
+{
+  "wixSiteHostname": "etgar49.com",
+  "siteId": "etgar49-2025",
+  "pages": {
+    "homepage": {
+      "title": "אתגר 49 - מסע של 49 ימים מפסח לשבועות",
+      "description": "אתגר 49 הוא מסע של התפתחות אישית לאורך 49 ימים מפסח לשבועות, המבוסס על מודל 7 הספירות מהקבלה."
+    }
+  },
+  "buildLocales": ["he"],
+  "defaultLocale": "he",
+  "businessName": "אתגר 49",
+  "externalComponents": [
+    {
+      "name": "wix-design-system",
+      "version": "latest"
+    }
+  ],
+  "headTags": [
+    {
+      "tag": "link",
+      "attributes": {
+        "rel": "preconnect",
+        "href": "https://fonts.googleapis.com"
+      }
+    },
+    {
+      "tag": "link",
+      "attributes": {
+        "rel": "preconnect",
+        "href": "https://fonts.gstatic.com",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "attributes": {
+        "href": "https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;600;700&display=swap",
+        "rel": "stylesheet"
+      }
+    }
+  ],
+  "seoSettings": {
+    "metaTags": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "name": "theme-color",
+        "content": "#4DAA57"
+      }
+    ],
+    "socialImageUrl": "https://etgar49.com/assets/social-share.jpg",
+    "structuredData": {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "אתגר 49",
+      "url": "https://etgar49.com",
+      "description": "אתגר 49 - מסע של 49 ימים מפסח לשבועות לשיפור המידות והצמיחה האישית",
+      "inLanguage": "he-IL"
+    }
+  },
+  "assetsConfig": {
+    "svgOptimization": true,
+    "imageOptimization": {
+      "quality": 85,
+      "formats": ["webp", "avif"]
+    }
+  },
+  "performance": {
+    "prefetchPages": ["homepage"],
+    "lazyLoadImages": true,
+    "cacheControl": {
+      "static": "public, max-age=31536000, immutable",
+      "page": "public, max-age=3600, s-maxage=3600"
+    }
+  }
+}
